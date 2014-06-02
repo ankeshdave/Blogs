@@ -1,0 +1,11 @@
+﻿@model BootswatchDemo.Models.Person
+
+@{
+    ViewBag.Title = "Template Demo";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>@Html.DisplayFor(m => m.Name)</div>
+
+<div>@Html.EditorFor(m => m.Name)</div>

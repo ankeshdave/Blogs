@@ -1,0 +1,13 @@
+﻿@model String
+
+<!--Using some bootstrap CSS classes to make it look distinct-->
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Display Template</h3>
+    </div>
+    <div class="panel-body">
+        @ViewData.TemplateInfo.FormattedModelValue
+    </div>
+</div>
+
