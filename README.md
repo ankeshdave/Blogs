@@ -1,4 +1,4 @@
 Blogs
 =====
 
-Source code for Tutorials that ia have made
+Source code for Tutorials that i have made
